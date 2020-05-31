@@ -100,7 +100,7 @@ hr {
   border-style: dotted none none;
   border-color: #dee3e2;
   border-width: 10px;
-  width: 6%;
+  width: 85px;
   margin: 100px auto 100px;
 }
 
@@ -214,6 +214,12 @@ hr {
 .time {
   font-size: 0.7em;
   color: #999;
+}
+
+.delete-chat {
+  position: absolute;
+  right: 10px;
+  top: 17px;
 }
 
 /* Footer */

@@ -41,7 +41,7 @@ const ChatForm = ({ room }) => {
 
   return (
     <Fragment>
-      <form className="new-name my-3" onSubmit={updateUsername}>
+      <form className="my-3" onSubmit={updateUsername}>
         <div className="input-group">
           <div className="input-group-prepend">
             <div className="input-group-text">Update name:</div>
@@ -52,7 +52,7 @@ const ChatForm = ({ room }) => {
           </div>
         </div>
       </form>
-      <form className="new-chat my-3" onSubmit={wholeSubmit}>
+      <form className="my-3" onSubmit={wholeSubmit}>
         <div className="input-group">
           <div className="input-group-prepend">
             <div className="input-group-text">Your message:</div>
