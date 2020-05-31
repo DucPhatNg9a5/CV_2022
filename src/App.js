@@ -9,30 +9,37 @@ import Portfolio from "./components/layout/Portfolio.jsx";
 import SearchCat from "./components/search/SearchCats.jsx";
 import ChatRoom from "./components/chat/ChatRoom.jsx";
 import MapApp from "./components/map/MapApp.jsx";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  HashRouter,
+} from "react-router-dom";
 // Redux
 import { Provider } from "react-redux";
 import store from "./store";
 
 function App() {
   return (
-    <Provider store={store}>
-      <Router>
-        <Fragment>
-          <Navbar />
-          <Switch>
-            <Route exact path="/" component={Intro}></Route>
-            <Route exact path="/background" component={Background}></Route>
-            <Route exact path="/portfolio" component={Portfolio}></Route>
-            <Route exact path="/search" component={SearchCat}></Route>
-            <Route exact path="/chat" component={ChatRoom}></Route>
-            <Route exact path="/map" component={MapApp}></Route>
-            <Route component={NotFound} />
-          </Switch>
-          <Footer />
-        </Fragment>
-      </Router>
-    </Provider>
+    <HashRouter basename="/">
+      <Provider store={store}>
+        <Router>
+          <Fragment>
+            <Navbar />
+            <Switch>
+              <Route exact path="/" component={Intro}></Route>
+              <Route exact path="/background" component={Background}></Route>
+              <Route exact path="/portfolio" component={Portfolio}></Route>
+              <Route exact path="/search" component={SearchCat}></Route>
+              <Route exact path="/chat" component={ChatRoom}></Route>
+              <Route exact path="/map" component={MapApp}></Route>
+              <Route component={NotFound} />
+            </Switch>
+            <Footer />
+          </Fragment>
+        </Router>
+      </Provider>
+    </HashRouter>
   );
 }
 

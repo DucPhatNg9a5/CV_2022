@@ -25,17 +25,17 @@ const Background = (props) => {
               </p>
               <p>
                 <strong>Tasks: </strong>
-                <ul>
-                  <li>Developing web map using open-source solution</li>
-                  <li>
-                    Creating features and troubleshooting with Javascript and
-                    Python
-                  </li>
-                  <li>
-                    Administrating database (PostgreSQL) and server (Hyper-v)
-                  </li>
-                </ul>
               </p>
+              <ul>
+                <li>Developing web map using open-source solution</li>
+                <li>
+                  Creating features and troubleshooting with Javascript and
+                  Python
+                </li>
+                <li>
+                  Administrating database (PostgreSQL) and server (Hyper-v)
+                </li>
+              </ul>
             </div>
           </div>
           <div className="background-edu p-2">
