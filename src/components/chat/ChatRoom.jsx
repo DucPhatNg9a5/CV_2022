@@ -48,7 +48,7 @@ const ChatRoom = (props) => {
         .doc(id)
         .delete()
         .then(() => {
-          console.log("recipe deleted");
+          console.log("document deleted");
         })
         .catch((err) => {
           console.log(err);

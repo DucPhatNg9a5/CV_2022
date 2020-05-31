@@ -6,13 +6,15 @@ import {
 } from "../actions/types";
 
 export const requestCats = () => async (dispatch) => {
-  dispatch({ type: REQUEST_CATS_PENDING });
-  await fetch(
-    "https://cors-anywhere.herokuapp.com/https://jsonplaceholder.typicode.com/users"
-  )
-    .then((res) => res.json())
-    .then((data) => dispatch({ type: REQUEST_CATS_SUCCESS, payload: data }))
-    .catch((err) => dispatch({ type: REQUEST_CATS_FAILED, payload: err }));
+  try {
+    dispatch({ type: REQUEST_CATS_PENDING });
+    await fetch("https://jsonplaceholder.typicode.com/users")
+      .then((res) => res.json())
+      .then((data) => dispatch({ type: REQUEST_CATS_SUCCESS, payload: data }))
+      .catch((err) => dispatch({ type: REQUEST_CATS_FAILED, payload: err }));
+  } catch (err) {
+    console.log(err);
+  }
 };
 
 export const updateSearch = (text) => (dispatch) => {
