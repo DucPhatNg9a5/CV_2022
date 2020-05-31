@@ -1,4 +1,5 @@
 {
+  "homepage": "http://DucPhatNg9a5.github.io/Duc-CV",
   "name": "my_cv",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +11,6 @@
     "config": "^3.3.1",
     "date-fns": "^2.14.0",
     "firebase": "^7.14.6",
-    "gh-pages": "^2.2.0",
     "leaflet": "^1.6.0",
     "moment": "^2.26.0",
     "react": "^16.13.1",
@@ -25,6 +25,8 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.0.0"
   }
 }
