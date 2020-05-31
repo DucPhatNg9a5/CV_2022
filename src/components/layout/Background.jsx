@@ -80,7 +80,7 @@ const Background = (props) => {
                 <img className="CCNA" src={Cisco} alt="CCNA-img" />
 
                 <p>
-                  <strong>Issued: </strong> Sep 2018 - Expires Sep 2021
+                  <strong>Issued: </strong> Sep 2018 - Sep 2021
                 </p>
                 <p>
                   <strong>Credential: </strong>ID 433665709919GTCL

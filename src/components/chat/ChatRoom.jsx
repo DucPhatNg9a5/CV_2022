@@ -41,7 +41,7 @@ const ChatRoom = (props) => {
 
   return (
     <div className="container main">
-      <h2 className="text-center pt-4">Live Chat Room</h2>
+      <h2 className="text-center pt-4">Live Chat Rooms</h2>
 
       <div className="chat-rooms mb-3 text-center" onClick={getRoom}>
         <div className="my-2">Choose a chat room:</div>
