@@ -14,7 +14,7 @@ const Footer = (props) => {
       </a>
 
       <a
-        href="https://ducphatng9a5.github.io/CV/"
+        href="https://ducphatng9a5.github.io/Duc-CV/#/"
         target="_blank"
         rel="noopener noreferrer"
         title="My personal website"
