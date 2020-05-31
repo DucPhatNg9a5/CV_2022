@@ -1,38 +1,333 @@
-.App {
+/* Element */
+
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap");
+
+a:hover {
+  color: #292b2c;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #11999e;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+}
+
+/* Navbar */
+
+.navbar-custom {
+  background-color: #e1fbfc;
+}
+
+.navbar-custom a {
+  color: #2f4f4fbe;
+}
+
+.navbar-custom a:hover {
+  color: #292b2c;
+}
+
+.navbar-custom .navbar-nav {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+/* body */
+
+body {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* main */
+.main {
+  min-height: calc(100vh - 68.8px - 100px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* top-box */
+.top-box {
+  padding-top: 100px;
+  position: relative;
+  background-color: #e1fbfc;
+}
+
+.name {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25rem;
+}
+
+.sun {
+  position: absolute;
+  width: 90px;
+  bottom: 40%;
+  right: 35%;
+}
+
+.mountain {
+  padding-top: 110px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Middle box */
+.middle-box {
+  padding: 100px 0 50px;
+  background-color: white;
+}
+
+.portrait {
+  width: 200px;
+  margin-bottom: 50px;
+}
+
+.intro-text {
+  width: 28%;
+  margin: auto;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #dee3e2;
+  border-width: 10px;
+  width: 6%;
+  margin: 100px auto 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.first-skill {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.second-skill {
+  width: 200px;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-message {
+  margin: 30px;
+}
+
+/* Background */
+
+.background-grid {
+  max-width: 1100px;
+  margin: auto;
+  text-align: left;
+  display: grid;
+  grid-template-areas: "exp edu" ". cert";
+  grid-gap: 1rem;
+}
+
+.background-header {
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.background-exp {
+  grid-area: exp;
+  border: #ccc solid 1px;
+}
+
+.background-edu {
+  grid-area: edu;
+  border: #ccc solid 1px;
+}
+
+.background-cert {
+  grid-area: cert;
+  border: #ccc solid 1px;
+}
+
+.SAIT {
+  width: 100px;
+}
+
+.CCNA {
+  width: 200px;
+}
+
+.background-cert p,
+.background-exp p,
+.background-edu p {
+  margin: 0.5rem 0;
+}
+
+.background-cert > div .background-exp > div,
+.background-edu > div {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Portfolio */
+.portfolio {
+  max-width: 900px;
+}
+
+.card-img-top {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 20rem;
+  margin: 0 auto; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+/* leaflet */
+.leaflet-container {
+  width: 100%;
+}
+
+.card-body {
+  background-color: #66bfbf;
+}
+
+/* Chat */
+
+.username {
+  font-weight: bold;
+}
+
+.time {
+  font-size: 0.7em;
+  color: #999;
+}
+
+/* Footer */
+
+.footer {
+  padding: 20px 0 10px;
+  background-color: #e1fbfc;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+
+.footer a {
+  color: #11999e;
+  margin: 0 1.7rem;
+}
+
+.footer a:hover {
+  color: #292b2c;
+}
+
+.copyright {
+  color: #11999e;
+  padding-top: 10px;
+  font-size: 0.75rem;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .hide-sm {
+    display: none;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  /* Text Styles */
+  .x-large {
+    font-size: 3rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .large {
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
+  /* Navbar */
+  .navbar {
+    display: block;
+    text-align: center;
+  }
+
+  .navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* Top-box */
+
+  .mountain {
+    padding-top: 200px;
+    width: 370px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sun {
+    width: 50px;
+    right: 15%;
+    bottom: 30%;
+  }
+
+  .name {
+    width: 375px;
+    padding: 10px;
+  }
+
+  /* Middle-box */
+  .intro-text {
+    width: 55%;
+  }
+
+  .skill-row {
+    width: 75%;
+  }
+
+  .first-skill {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .second-skill {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Background */
+  .background-grid {
+    grid-template-areas:
+      "edu"
+      "exp"
+      "cert";
+  }
+
+  .SAIT,
+  .CCNA {
+    display: block;
+  }
+
+  /* Footer */
+  .footer-link {
+    display: block;
   }
 }

@@ -1,0 +1,1642 @@
+{
+  "meta": {
+    "view": {
+      "id": "niu9-34wk",
+      "name": "Calgary Public Library Locations and Hours - Map",
+      "averageRating": 0,
+      "category": "Recreation and Culture",
+      "createdAt": 1480352135,
+      "description": "A list of all Calgary Public Library locations and their hours of operation with catchment areas",
+      "displayType": "map",
+      "downloadCount": 584,
+      "hideFromCatalog": false,
+      "hideFromDataJson": false,
+      "indexUpdatedAt": 1568155722,
+      "newBackend": true,
+      "numberOfComments": 0,
+      "oid": 24968423,
+      "previewImageId": "4507fc6c-c9a3-4de8-89d3-0253c3ca8a69",
+      "provenance": "official",
+      "publicationAppendEnabled": false,
+      "publicationDate": 1480349919,
+      "publicationGroup": 13923697,
+      "publicationStage": "published",
+      "rowClass": "",
+      "rowsUpdatedAt": 1480349815,
+      "rowsUpdatedBy": "gwgh-iq4e",
+      "tableId": 13923722,
+      "totalTimesRated": 0,
+      "viewCount": 3031,
+      "viewLastModified": 1586903641,
+      "viewType": "tabular",
+      "approvals": [
+        {
+          "reviewedAt": 1480352351,
+          "reviewedAutomatically": true,
+          "state": "approved",
+          "submissionId": 781252,
+          "submissionObject": "public_audience_request",
+          "submissionOutcome": "change_audience",
+          "submittedAt": 1480352351,
+          "workflowId": 2143,
+          "submissionDetails": {
+            "permissionType": "READ"
+          },
+          "submissionOutcomeApplication": {
+            "failureCount": 0,
+            "status": "success"
+          },
+          "submitter": {
+            "id": "55bi-hyk4",
+            "displayName": "Calgary Open Data"
+          }
+        }
+      ],
+      "columns": [
+        {
+          "id": -1,
+          "name": "sid",
+          "dataTypeName": "meta_data",
+          "fieldName": ":sid",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": -1,
+          "name": "id",
+          "dataTypeName": "meta_data",
+          "fieldName": ":id",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": -1,
+          "name": "position",
+          "dataTypeName": "meta_data",
+          "fieldName": ":position",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": -1,
+          "name": "created_at",
+          "dataTypeName": "meta_data",
+          "fieldName": ":created_at",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": -1,
+          "name": "created_meta",
+          "dataTypeName": "meta_data",
+          "fieldName": ":created_meta",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": -1,
+          "name": "updated_at",
+          "dataTypeName": "meta_data",
+          "fieldName": ":updated_at",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": -1,
+          "name": "updated_meta",
+          "dataTypeName": "meta_data",
+          "fieldName": ":updated_meta",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": -1,
+          "name": "meta",
+          "dataTypeName": "meta_data",
+          "fieldName": ":meta",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": 279253314,
+          "name": "Library",
+          "dataTypeName": "text",
+          "fieldName": "library",
+          "position": 1,
+          "renderTypeName": "text",
+          "tableColumnId": 40830156,
+          "width": 184,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "Bowness Library",
+                "count": "1"
+              },
+              {
+                "item": "Country Hills Library",
+                "count": "1"
+              },
+              {
+                "item": "Shawnessy Library",
+                "count": "1"
+              },
+              {
+                "item": "Village Square Library",
+                "count": "1"
+              },
+              {
+                "item": "Forest Lawn Library",
+                "count": "1"
+              },
+              {
+                "item": "W.R. Castell Central Library",
+                "count": "1"
+              },
+              {
+                "item": "Fish Creek Library",
+                "count": "1"
+              },
+              {
+                "item": "Saddletowne Library",
+                "count": "1"
+              },
+              {
+                "item": "Westbrook Library",
+                "count": "1"
+              },
+              {
+                "item": "Crowfoot Library",
+                "count": "1"
+              },
+              {
+                "item": "Glenmore Square Library",
+                "count": "1"
+              },
+              {
+                "item": "Memorial Park Library",
+                "count": "1"
+              },
+              {
+                "item": "Southwood Library",
+                "count": "1"
+              },
+              {
+                "item": "Judith Umbach Library",
+                "count": "1"
+              },
+              {
+                "item": "Nose Hill Library",
+                "count": "1"
+              },
+              {
+                "item": "Alexander Calhoun Library",
+                "count": "1"
+              },
+              {
+                "item": "Signal Hill Library",
+                "count": "1"
+              },
+              {
+                "item": "Louise Riley Library",
+                "count": "1"
+              }
+            ],
+            "cardinality": "18"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253315,
+          "name": "Postal_Code",
+          "dataTypeName": "text",
+          "fieldName": "postal_code",
+          "position": 2,
+          "renderTypeName": "text",
+          "tableColumnId": 40830157,
+          "width": 232,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "T2K 4Y5",
+                "count": "1"
+              },
+              {
+                "item": "T3B 0H3",
+                "count": "1"
+              },
+              {
+                "item": "T2Y 4H3",
+                "count": "1"
+              },
+              {
+                "item": "T3C 1P4",
+                "count": "1"
+              },
+              {
+                "item": "T2R 0W5",
+                "count": "1"
+              },
+              {
+                "item": "T2W 0J9",
+                "count": "1"
+              },
+              {
+                "item": "T3K 6E3",
+                "count": "1"
+              },
+              {
+                "item": "T3H 3P8",
+                "count": "1"
+              },
+              {
+                "item": "T3J 0C9",
+                "count": "1"
+              },
+              {
+                "item": "T2T 3V8",
+                "count": "1"
+              },
+              {
+                "item": "T2C 2N5",
+                "count": "1"
+              },
+              {
+                "item": "T3G 5T3",
+                "count": "1"
+              },
+              {
+                "item": "T1Y 6E7",
+                "count": "1"
+              },
+              {
+                "item": "T2J 6S1",
+                "count": "1"
+              },
+              {
+                "item": "T2A 4M1",
+                "count": "1"
+              },
+              {
+                "item": "T2L 0G6",
+                "count": "1"
+              },
+              {
+                "item": "T2G 2M2",
+                "count": "1"
+              },
+              {
+                "item": "T2N 1M5",
+                "count": "1"
+              }
+            ],
+            "cardinality": "18"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253316,
+          "name": "Square_Feet",
+          "dataTypeName": "number",
+          "fieldName": "square_feet",
+          "position": 3,
+          "renderTypeName": "number",
+          "tableColumnId": 40830159,
+          "width": 232,
+          "cachedContents": {
+            "non_null": 18,
+            "average": "25642.55555555556",
+            "null": "0",
+            "top": [
+              {
+                "item": "18783",
+                "count": "1"
+              },
+              {
+                "item": "19397",
+                "count": "1"
+              },
+              {
+                "item": "18847",
+                "count": "1"
+              },
+              {
+                "item": "7800",
+                "count": "1"
+              },
+              {
+                "item": "14191",
+                "count": "1"
+              },
+              {
+                "item": "18470",
+                "count": "1"
+              },
+              {
+                "item": "9256",
+                "count": "1"
+              },
+              {
+                "item": "8992",
+                "count": "1"
+              },
+              {
+                "item": "6779",
+                "count": "1"
+              },
+              {
+                "item": "7921",
+                "count": "1"
+              },
+              {
+                "item": "16977",
+                "count": "1"
+              },
+              {
+                "item": "17782",
+                "count": "1"
+              },
+              {
+                "item": "6068",
+                "count": "1"
+              },
+              {
+                "item": "47074",
+                "count": "1"
+              },
+              {
+                "item": "18127",
+                "count": "1"
+              },
+              {
+                "item": "28506",
+                "count": "1"
+              },
+              {
+                "item": "177532",
+                "count": "1"
+              },
+              {
+                "item": "19064",
+                "count": "1"
+              }
+            ],
+            "sum": "461566",
+            "cardinality": "18"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253317,
+          "name": "Phone_Number",
+          "dataTypeName": "text",
+          "fieldName": "phone_number",
+          "position": 4,
+          "renderTypeName": "text",
+          "tableColumnId": 40830160,
+          "width": 244,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "403-260-2600",
+                "count": "18"
+              }
+            ],
+            "cardinality": "1"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253318,
+          "name": "Monday_Open",
+          "dataTypeName": "text",
+          "fieldName": "monday_open",
+          "position": 5,
+          "renderTypeName": "text",
+          "tableColumnId": 40830162,
+          "width": 232,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "10:00",
+                "count": "11"
+              },
+              {
+                "item": "9:00",
+                "count": "6"
+              },
+              {
+                "item": "13:00",
+                "count": "1"
+              }
+            ],
+            "cardinality": "3"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253319,
+          "name": "Monday_Close",
+          "dataTypeName": "text",
+          "fieldName": "monday_close",
+          "position": 6,
+          "renderTypeName": "text",
+          "tableColumnId": 40830163,
+          "width": 244,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "21:00",
+                "count": "15"
+              },
+              {
+                "item": "20:00",
+                "count": "2"
+              },
+              {
+                "item": "17:00",
+                "count": "1"
+              }
+            ],
+            "cardinality": "3"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253320,
+          "name": "Tuesday_Open",
+          "dataTypeName": "text",
+          "fieldName": "tuesday_open",
+          "position": 7,
+          "renderTypeName": "text",
+          "tableColumnId": 40830165,
+          "width": 244,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "10:00",
+                "count": "11"
+              },
+              {
+                "item": "9:00",
+                "count": "6"
+              },
+              {
+                "item": "12:00",
+                "count": "1"
+              }
+            ],
+            "cardinality": "3"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253321,
+          "name": "Tuesday_Close",
+          "dataTypeName": "text",
+          "fieldName": "tuesday_close",
+          "position": 8,
+          "renderTypeName": "text",
+          "tableColumnId": 40830167,
+          "width": 256,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "21:00",
+                "count": "15"
+              },
+              {
+                "item": "20:00",
+                "count": "3"
+              }
+            ],
+            "cardinality": "2"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253322,
+          "name": "Wednesday_Open",
+          "dataTypeName": "text",
+          "fieldName": "wednesday_open",
+          "position": 9,
+          "renderTypeName": "text",
+          "tableColumnId": 40830169,
+          "width": 268,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "10:00",
+                "count": "10"
+              },
+              {
+                "item": "9:00",
+                "count": "6"
+              },
+              {
+                "item": "13:00",
+                "count": "1"
+              },
+              {
+                "item": "12:00",
+                "count": "1"
+              }
+            ],
+            "cardinality": "4"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253323,
+          "name": "Wednesday_Close",
+          "dataTypeName": "text",
+          "fieldName": "wednesday_close",
+          "position": 10,
+          "renderTypeName": "text",
+          "tableColumnId": 40830170,
+          "width": 280,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "21:00",
+                "count": "15"
+              },
+              {
+                "item": "20:00",
+                "count": "3"
+              }
+            ],
+            "cardinality": "2"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253324,
+          "name": "Thursday_Open",
+          "dataTypeName": "text",
+          "fieldName": "thursday_open",
+          "position": 11,
+          "renderTypeName": "text",
+          "tableColumnId": 40830172,
+          "width": 256,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "10:00",
+                "count": "11"
+              },
+              {
+                "item": "9:00",
+                "count": "6"
+              },
+              {
+                "item": "12:00",
+                "count": "1"
+              }
+            ],
+            "cardinality": "3"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253325,
+          "name": "Thursday_Close",
+          "dataTypeName": "text",
+          "fieldName": "thursday_close",
+          "position": 12,
+          "renderTypeName": "text",
+          "tableColumnId": 40830173,
+          "width": 268,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "21:00",
+                "count": "15"
+              },
+              {
+                "item": "20:00",
+                "count": "2"
+              },
+              {
+                "item": "17:00",
+                "count": "1"
+              }
+            ],
+            "cardinality": "3"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253326,
+          "name": "Friday_Open",
+          "dataTypeName": "text",
+          "fieldName": "friday_open",
+          "position": 13,
+          "renderTypeName": "text",
+          "tableColumnId": 40830175,
+          "width": 232,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "10:00",
+                "count": "12"
+              },
+              {
+                "item": "9:00",
+                "count": "6"
+              }
+            ],
+            "cardinality": "2"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253327,
+          "name": "Friday_Close",
+          "dataTypeName": "text",
+          "fieldName": "friday_close",
+          "position": 14,
+          "renderTypeName": "text",
+          "tableColumnId": 40830176,
+          "width": 244,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "18:00",
+                "count": "15"
+              },
+              {
+                "item": "17:00",
+                "count": "3"
+              }
+            ],
+            "cardinality": "2"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253328,
+          "name": "Saturday_Open",
+          "dataTypeName": "text",
+          "fieldName": "saturday_open",
+          "position": 15,
+          "renderTypeName": "text",
+          "tableColumnId": 40830177,
+          "width": 256,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "10:00",
+                "count": "14"
+              },
+              {
+                "item": "9:00",
+                "count": "4"
+              }
+            ],
+            "cardinality": "2"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253329,
+          "name": "Saturday_Close",
+          "dataTypeName": "text",
+          "fieldName": "saturday_close",
+          "position": 16,
+          "renderTypeName": "text",
+          "tableColumnId": 40830179,
+          "width": 268,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "17:00",
+                "count": "18"
+              }
+            ],
+            "cardinality": "1"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253330,
+          "name": "Sunday_Open",
+          "dataTypeName": "text",
+          "fieldName": "sunday_open",
+          "position": 17,
+          "renderTypeName": "text",
+          "tableColumnId": 40830180,
+          "width": 232,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "12:00",
+                "count": "18"
+              }
+            ],
+            "cardinality": "1"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253331,
+          "name": "Sunday_Close",
+          "dataTypeName": "text",
+          "fieldName": "sunday_close",
+          "position": 18,
+          "renderTypeName": "text",
+          "tableColumnId": 40830181,
+          "width": 244,
+          "cachedContents": {
+            "non_null": 18,
+            "null": "0",
+            "top": [
+              {
+                "item": "17:00",
+                "count": "18"
+              }
+            ],
+            "cardinality": "1"
+          },
+          "format": {}
+        },
+        {
+          "id": 279253332,
+          "name": "Location",
+          "dataTypeName": "location",
+          "fieldName": "location",
+          "position": 19,
+          "renderTypeName": "location",
+          "tableColumnId": 40830183,
+          "width": 196,
+          "format": {},
+          "subColumnTypes": [
+            "human_address",
+            "latitude",
+            "longitude",
+            "machine_address",
+            "needs_recoding"
+          ]
+        },
+        {
+          "id": 279253333,
+          "name": "Address",
+          "dataTypeName": "location",
+          "fieldName": "location_1",
+          "position": 24,
+          "renderTypeName": "location",
+          "tableColumnId": 40830184,
+          "width": 220,
+          "format": {
+            "view": "address_coords",
+            "align": "left"
+          },
+          "subColumnTypes": [
+            "human_address",
+            "latitude",
+            "longitude",
+            "machine_address",
+            "needs_recoding"
+          ]
+        }
+      ],
+      "displayFormat": {
+        "disableGeolocator": false,
+        "bkgdLayers": [
+          {
+            "layerKey": "World Street Map (ESRI)",
+            "opacity": 1
+          }
+        ],
+        "exclusiveLayers": false,
+        "viewDefinitions": [
+          {
+            "uid": "self",
+            "highlightColor": "#ddeaf0",
+            "color": "#0000ff",
+            "plot": {
+              "locationId": 40830183,
+              "titleId": 40830156,
+              "descriptionColumns": [
+                {
+                  "tableColumnId": 40830184
+                },
+                {
+                  "tableColumnId": 40830157
+                },
+                {
+                  "tableColumnId": 40830160
+                },
+                {
+                  "tableColumnId": 40830159
+                },
+                {
+                  "tableColumnId": 40830162
+                },
+                {
+                  "tableColumnId": 40830163
+                },
+                {
+                  "tableColumnId": 40830165
+                },
+                {
+                  "tableColumnId": 40830167
+                },
+                {
+                  "tableColumnId": 40830169
+                },
+                {
+                  "tableColumnId": 40830170
+                },
+                {
+                  "tableColumnId": 40830172
+                },
+                {
+                  "tableColumnId": 40830173
+                },
+                {
+                  "tableColumnId": 40830175
+                },
+                {
+                  "tableColumnId": 40830176
+                },
+                {
+                  "tableColumnId": 40830177
+                },
+                {
+                  "tableColumnId": 40830179
+                },
+                {
+                  "tableColumnId": 40830180
+                },
+                {
+                  "tableColumnId": 40830181
+                }
+              ]
+            },
+            "flyoutsNoLabel": false,
+            "opacity": 1,
+            "plotStyle": "point"
+          },
+          {
+            "uid": "q4c9-ekgw",
+            "opacity": 1
+          }
+        ]
+      },
+      "grants": [
+        {
+          "inherited": true,
+          "type": "viewer",
+          "flags": ["public"]
+        }
+      ],
+      "metadata": {
+        "rdfClass": "",
+        "rdfSubject": "0",
+        "custom_fields": {
+          "Data Supplier": {
+            "Organization": "Other",
+            "Business Unit": "Other - Not City of Calgary"
+          },
+          "Geospatial Information": {
+            "Dataset contains geospatial information": "Yes"
+          }
+        },
+        "rowIdentifier": "0",
+        "rowLabel": "Row",
+        "availableDisplayTypes": ["map", "table", "fatrow", "page"],
+        "renderTypeConfig": {
+          "visible": {
+            "map": true,
+            "table": true
+          },
+          "active": {
+            "table": {
+              "id": "self"
+            }
+          }
+        }
+      },
+      "owner": {
+        "id": "55bi-hyk4",
+        "displayName": "Calgary Open Data",
+        "profileImageUrlLarge": "/api/users/55bi-hyk4/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/55bi-hyk4/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/55bi-hyk4/profile_images/TINY",
+        "screenName": "Calgary Open Data",
+        "type": "interactive",
+        "userSegment": "site_member"
+      },
+      "query": {},
+      "rights": ["read"],
+      "tableAuthor": {
+        "id": "rb3e-c97r",
+        "displayName": "Open Data Master",
+        "screenName": "Open Data Master",
+        "type": "interactive",
+        "userSegment": "site_member",
+        "flags": ["mayBeStoriesCoOwner"]
+      },
+      "tags": ["library", "location", "hours", "play"],
+      "flags": ["unsaved"]
+    }
+  },
+  "data": [
+    [
+      "row-9vmx-rc7f~raaw",
+      "00000000-0000-0000-67E2-DB673CEB8709",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "W.R. Castell Central Library",
+      "T2G 2M2",
+      "177532",
+      "403-260-2600",
+      "9:00",
+      "20:00",
+      "9:00",
+      "20:00",
+      "9:00",
+      "20:00",
+      "9:00",
+      "20:00",
+      "9:00",
+      "17:00",
+      "10:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "51.0470276", "-114.0578995", null, false],
+      [
+        "{\"address\": \"616 Macleod Tr SE\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "51.0470276",
+        "-114.0578995",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-mk97.duhp~26nu",
+      "00000000-0000-0000-16F9-72D1AC9C0DF5",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Alexander Calhoun Library",
+      "T2T 3V8",
+      "9256",
+      "403-260-2600",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "18:00",
+      "10:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "51.0255318", "-114.0947876", null, false],
+      [
+        "{\"address\": \"3223 14 St SW\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "51.0255318",
+        "-114.0947876",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-689w~eaq6-3pbf",
+      "00000000-0000-0000-0535-91EEDED7BB67",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Bowness Library",
+      "T3B 0H3",
+      "7800",
+      "403-260-2600",
+      "13:00",
+      "20:00",
+      "10:00",
+      "20:00",
+      "10:00",
+      "20:00",
+      "10:00",
+      "17:00",
+      "10:00",
+      "17:00",
+      "10:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "51.0872841", "-114.1830978", null, false],
+      [
+        "{\"address\": \"7930 Bowness Rd NW\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "51.0872841",
+        "-114.1830978",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-2px5~r427.crb5",
+      "00000000-0000-0000-DC49-87023A3738D3",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Fish Creek Library",
+      "T2J 6S1",
+      "47074",
+      "403-260-2600",
+      "9:00",
+      "21:00",
+      "9:00",
+      "21:00",
+      "9:00",
+      "21:00",
+      "9:00",
+      "21:00",
+      "9:00",
+      "18:00",
+      "9:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "50.9516296", "-114.0603409", null, false],
+      [
+        "{\"address\": \"11161 Bonaventure Dr SE\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "50.9516296",
+        "-114.0603409",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-4zih~mnse_5k5s",
+      "00000000-0000-0000-9EF3-811A89A85BE1",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Forest Lawn Library",
+      "T2A 4M1",
+      "16977",
+      "403-260-2600",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "18:00",
+      "10:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "51.045105", "-113.9652023", null, false],
+      [
+        "{\"address\": \"4807 8 Av SE\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "51.045105",
+        "-113.9652023",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-i9rg~sc4w.mdxa",
+      "00000000-0000-0000-85B5-588A1940F189",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Glenmore Square Library",
+      "T2C 2N5",
+      "6068",
+      "403-260-2600",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "13:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "17:00",
+      "10:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "50.9835968", "-114.0141449", null, false],
+      [
+        "{\"address\": \"7740 18 St SE\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "50.9835968",
+        "-114.0141449",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-qmgx_rvkt_ctk4",
+      "00000000-0000-0000-016D-81F66E2116FD",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Louise Riley Library",
+      "T2N 1M5",
+      "14191",
+      "403-260-2600",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "18:00",
+      "10:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "51.0652428", "-114.1038132", null, false],
+      [
+        "{\"address\": \"1904 14 Av NW\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "51.0652428",
+        "-114.1038132",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-p4np~b9pd_2k3x",
+      "00000000-0000-0000-83A6-5C9694CFD879",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Memorial Park Library",
+      "T2R 0W5",
+      "19397",
+      "403-260-2600",
+      "10:00",
+      "17:00",
+      "12:00",
+      "20:00",
+      "12:00",
+      "20:00",
+      "12:00",
+      "20:00",
+      "10:00",
+      "18:00",
+      "10:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "51.0412674", "-114.0683823", null, false],
+      [
+        "{\"address\": \"1221 2 St SW\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "51.0412674",
+        "-114.0683823",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-kuab.ifn9_yswn",
+      "00000000-0000-0000-9EE6-01EDA0A2568A",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Nose Hill Library",
+      "T2L 0G6",
+      "17782",
+      "403-260-2600",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "18:00",
+      "10:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "51.0960922", "-114.1391296", null, false],
+      [
+        "{\"address\": \"1530 Northmount Dr NW\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "51.0960922",
+        "-114.1391296",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-5xq4_zkij-8rpe",
+      "00000000-0000-0000-9CFF-532B017A049C",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Shawnessy Library",
+      "T2Y 4H3",
+      "18847",
+      "403-260-2600",
+      "9:00",
+      "21:00",
+      "9:00",
+      "21:00",
+      "9:00",
+      "21:00",
+      "9:00",
+      "21:00",
+      "9:00",
+      "18:00",
+      "9:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "50.8986015", "-114.062851", null, false],
+      [
+        "{\"address\": \"333 Shawville Bv SE\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "50.8986015",
+        "-114.062851",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-3nq6-jnh8.ks35",
+      "00000000-0000-0000-AB14-E6C41DD4A1F4",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Signal Hill Library",
+      "T3H 3P8",
+      "18470",
+      "403-260-2600",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "18:00",
+      "10:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "51.0181122", "-114.1756439", null, false],
+      [
+        "{\"address\": \"5994 Signal Hill Ce SW\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "51.0181122",
+        "-114.1756439",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-ypre.6eq5~6c9d",
+      "00000000-0000-0000-04DB-D1C45B1B5914",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Southwood Library",
+      "T2W 0J9",
+      "6779",
+      "403-260-2600",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "18:00",
+      "10:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "50.963623", "-114.0860367", null, false],
+      [
+        "{\"address\": \"924 Southland Dr SW\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "50.963623",
+        "-114.0860367",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-iwd4.ftpq_cz7s",
+      "00000000-0000-0000-CC5D-5C153EE1A1E7",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Judith Umbach Library",
+      "T2K 4Y5",
+      "7921",
+      "403-260-2600",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "18:00",
+      "10:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "51.1121979", "-114.0633087", null, false],
+      [
+        "{\"address\": \"6617 Centre St N\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "51.1121979",
+        "-114.0633087",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-myrt.ber2.xyx9",
+      "00000000-0000-0000-A79B-2366935120F3",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Village Square Library",
+      "T1Y 6E7",
+      "19064",
+      "403-260-2600",
+      "9:00",
+      "21:00",
+      "9:00",
+      "21:00",
+      "9:00",
+      "21:00",
+      "9:00",
+      "21:00",
+      "9:00",
+      "18:00",
+      "9:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "51.0753708", "-113.9525833", null, false],
+      [
+        "{\"address\": \"2623 56 St NE\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "51.0753708",
+        "-113.9525833",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-65sx-y85v.q4xs",
+      "00000000-0000-0000-9CCB-6F78679E42BD",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Crowfoot Library",
+      "T3G 5T3",
+      "28506",
+      "403-260-2600",
+      "9:00",
+      "21:00",
+      "9:00",
+      "21:00",
+      "9:00",
+      "21:00",
+      "9:00",
+      "21:00",
+      "9:00",
+      "18:00",
+      "9:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "51.1295815", "-114.1926956", null, false],
+      [
+        "{\"address\": \"8685 Nose hill Dr NW\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "51.1295815",
+        "-114.1926956",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-ii2h.9zr4-nn4w",
+      "00000000-0000-0000-E360-896A03C99149",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Country Hills Library",
+      "T3K 6E3",
+      "18127",
+      "403-260-2600",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "18:00",
+      "10:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "51.159462", "-114.0675659", null, false],
+      [
+        "{\"address\": \"388 Country Hills Bv NE\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "51.159462",
+        "-114.0675659",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-z7mw_pe2g.md2c",
+      "00000000-0000-0000-1B28-7D358B83A35A",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Saddletowne Library",
+      "T3J 0C9",
+      "18783",
+      "403-260-2600",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "21:00",
+      "10:00",
+      "18:00",
+      "10:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "51.1196709", "-113.9485092", null, false],
+      [
+        "{\"address\": \"7556 Falconridge Bl NE\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "51.1196709",
+        "-113.9485092",
+        null,
+        false
+      ]
+    ],
+    [
+      "row-4xy3_zn2y.qeh9",
+      "00000000-0000-0000-EE13-43DC84DE5427",
+      0,
+      1568155705,
+      null,
+      1568155705,
+      null,
+      "{ }",
+      "Westbrook Library",
+      "T3C 1P4",
+      "8992",
+      "403-260-2600",
+      "9:00",
+      "21:00",
+      "9:00",
+      "21:00",
+      "9:00",
+      "21:00",
+      "9:00",
+      "21:00",
+      "9:00",
+      "18:00",
+      "10:00",
+      "17:00",
+      "12:00",
+      "17:00",
+      [null, "51.0404778", "-114.138237", null, false],
+      [
+        "{\"address\": \"1421 33 Street SW\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}",
+        "51.0404778",
+        "-114.138237",
+        null,
+        false
+      ]
+    ]
+  ]
+}
