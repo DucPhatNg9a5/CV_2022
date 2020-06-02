@@ -2,6 +2,9 @@ import React, { Fragment } from "react";
 // import PropTypes from 'prop-types'
 import Cisco from "../../img/cisco_ccna_R_26S.png";
 import Sait from "../../img/logo200px.png";
+import Jsninja from "../../img/UC-7615eef0-3e9c-49eb-8d56-1a2ba45998e1.jpg";
+import Mern from "../../img/UC-b461af42-3812-4852-9903-039f95367afd.jpg";
+import Bootcamp from "../../img/UC-d9279b63-2b8c-4746-8ee4-85ad568a9e6b.jpg";
 
 const Background = (props) => {
   return (
@@ -64,7 +67,7 @@ const Background = (props) => {
           <div className="background-cert p-2">
             <h2 className="background-header">Certification</h2>
             <div>
-              <div className="">
+              <div>
                 <p>
                   <strong>
                     <a
@@ -85,6 +88,26 @@ const Background = (props) => {
                 <p>
                   <strong>Credential: </strong>ID 433665709919GTCL
                 </p>
+              </div>
+              <div>
+                <h5 className="py-4">
+                  <strong className="text-info">Udemy Certifications</strong>
+                </h5>
+                <p>
+                  <strong>Course: </strong>Modern JavaScript (from Novice to
+                  Ninja)
+                </p>
+                <img className="udemy" src={Jsninja} alt="udemy-img" />
+                <p>
+                  <strong>Course: </strong>MERN Stack Front To Back: Full Stack
+                  React, Redux & Node.js
+                </p>
+                <img className="udemy" src={Mern} alt="udemy-img" />
+                <p>
+                  <strong>Course: </strong>The Complete 2020 Web Development
+                  Bootcamp
+                </p>
+                <img className="udemy" src={Bootcamp} alt="udemy-img" />
               </div>
             </div>
           </div>

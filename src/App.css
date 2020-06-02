@@ -162,10 +162,15 @@ hr {
 
 .SAIT {
   width: 100px;
+  display: block;
 }
 
 .CCNA {
   width: 200px;
+}
+
+.udemy {
+  width: 300px;
 }
 
 .background-cert p,
@@ -327,6 +332,7 @@ hr {
       "cert";
   }
 
+  .udemy,
   .SAIT,
   .CCNA {
     display: block;
