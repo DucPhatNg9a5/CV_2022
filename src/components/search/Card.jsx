@@ -6,7 +6,7 @@ const Card = ({ name }) => {
       <div className="card shadow">
         <img
           className="card-img-top pt-2"
-          alt="robots"
+          alt="cat-img"
           src={"https://robohash.org/" + name.split(" ")[1] + "?set=set4"}
         />
         <div className="card-body">

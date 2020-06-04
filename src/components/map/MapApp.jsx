@@ -19,16 +19,16 @@ const MapApp = (props) => {
 
   return (
     <Fragment>
-      <Map center={position} zoom={13} className="main">
+      <Map center={position} zoom={13} className="main text-left">
         <LayersControl position="topright">
-          <BaseLayer name="street" checked>
+          <BaseLayer name="Street" checked>
             <TileLayer
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             />
           </BaseLayer>
 
-          <BaseLayer name="satellite">
+          <BaseLayer name="Satellite">
             <TileLayer
               url="http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}"
               subdomains={["mt0", "mt1", "mt2", "mt3"]}
