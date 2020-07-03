@@ -3,13 +3,13 @@ import "firebase/firestore";
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyBWj8TfHx-fwd2_wk6UnVR0daRydxKkmiU",
-  authDomain: "forcv-2d3c8.firebaseapp.com",
-  databaseURL: "https://forcv-2d3c8.firebaseio.com",
-  projectId: "forcv-2d3c8",
-  storageBucket: "forcv-2d3c8.appspot.com",
-  messagingSenderId: "832512417901",
-  appId: "1:832512417901:web:ad84e0aabbf70871999f64",
+  apiKey: "AIzaSyCfu6VfjQ4mbNrx2pwgWN6su4xCMF8PhlA",
+  authDomain: "my-cv-4adc3.firebaseapp.com",
+  databaseURL: "https://my-cv-4adc3.firebaseio.com",
+  projectId: "my-cv-4adc3",
+  storageBucket: "my-cv-4adc3.appspot.com",
+  messagingSenderId: "467991980479",
+  appId: "1:467991980479:web:243871dc20a3510a25990a",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
