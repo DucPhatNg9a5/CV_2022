@@ -3,13 +3,13 @@ import "firebase/firestore";
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyCfu6VfjQ4mbNrx2pwgWN6su4xCMF8PhlA",
-  authDomain: "my-cv-4adc3.firebaseapp.com",
-  databaseURL: "https://my-cv-4adc3.firebaseio.com",
-  projectId: "my-cv-4adc3",
-  storageBucket: "my-cv-4adc3.appspot.com",
-  messagingSenderId: "467991980479",
-  appId: "1:467991980479:web:243871dc20a3510a25990a",
+  apiKey: "AIzaSyAecWJYIkI1dO9kHKjLqOiHAHZsjLWHBio",
+  authDomain: "new-cv-d5cad.firebaseapp.com",
+  databaseURL: "https://new-cv-d5cad.firebaseio.com",
+  projectId: "new-cv-d5cad",
+  storageBucket: "new-cv-d5cad.appspot.com",
+  messagingSenderId: "511954721527",
+  appId: "1:511954721527:web:5951132b3125d9133c51f2",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
