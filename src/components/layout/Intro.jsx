@@ -62,7 +62,7 @@ const Intro = (props) => {
             <h2>Get In Touch</h2>
             <p>
               Email: nguyenducphat9a5@gmail.com <br />
-              Text message: +1 (403) 616-8472
+              Text message: +1 (825) 365-9357
             </p>
           </div>
           <a

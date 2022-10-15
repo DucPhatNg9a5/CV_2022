@@ -5,7 +5,7 @@ export const projects = [
     resource: "Firebase",
     description:
       "Multiple interactive chat rooms with real-time database (Firebase/FireStore)",
-    img: "https://image.flaticon.com/icons/svg/2937/2937072.svg",
+    img: "https://cdn-icons-png.flaticon.com/512/589/589708.png",
     language: "Javascript",
     link: "/chat",
   },
@@ -15,7 +15,7 @@ export const projects = [
     resource: "Leaflet",
     description:
       "An opensource web map to show the locations of libraries in Calgary",
-    img: "https://image.flaticon.com/icons/svg/2943/2943449.svg",
+    img: "https://cdn-icons-png.flaticon.com/512/921/921439.png",
     language: "Javascript",
     link: "/map",
   },
@@ -25,7 +25,7 @@ export const projects = [
     resource: "MongoDB, Express, React, Node.js",
     description:
       "Social media for developers, a complete full stack MERN application",
-    img: "https://image.flaticon.com/icons/svg/1055/1055687.svg",
+    img: "https://cdn-icons-png.flaticon.com/512/5969/5969023.png",
     language: "Javascript",
     url: "https://devconnector-mern-stack-app.herokuapp.com/",
   },
@@ -34,7 +34,7 @@ export const projects = [
     name: "Cat Searching",
     resource: "React-Redux",
     description: "Using React-Redux to manage the changing stage of search bar",
-    img: "https://image.flaticon.com/icons/svg/882/882988.svg",
+    img: "https://cdn-icons-png.flaticon.com/512/46/46389.png",
     language: "Javascript",
     link: "/search",
   },
