@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/CV_2022/static/css/main.3ceabed5.chunk.css",
+    "main.js": "/CV_2022/static/js/main.e6cdb7a8.chunk.js",
+    "main.js.map": "/CV_2022/static/js/main.e6cdb7a8.chunk.js.map",
+    "runtime-main.js": "/CV_2022/static/js/runtime-main.4a20cefd.js",
+    "runtime-main.js.map": "/CV_2022/static/js/runtime-main.4a20cefd.js.map",
+    "static/css/2.90c11924.chunk.css": "/CV_2022/static/css/2.90c11924.chunk.css",
+    "static/js/2.a976a9de.chunk.js": "/CV_2022/static/js/2.a976a9de.chunk.js",
+    "static/js/2.a976a9de.chunk.js.map": "/CV_2022/static/js/2.a976a9de.chunk.js.map",
+    "index.html": "/CV_2022/index.html",
+    "precache-manifest.1d958b846e297b1a942a34c2c2ae64b6.js": "/CV_2022/precache-manifest.1d958b846e297b1a942a34c2c2ae64b6.js",
+    "service-worker.js": "/CV_2022/service-worker.js",
+    "static/css/2.90c11924.chunk.css.map": "/CV_2022/static/css/2.90c11924.chunk.css.map",
+    "static/css/main.3ceabed5.chunk.css.map": "/CV_2022/static/css/main.3ceabed5.chunk.css.map",
+    "static/js/2.a976a9de.chunk.js.LICENSE.txt": "/CV_2022/static/js/2.a976a9de.chunk.js.LICENSE.txt",
+    "static/media/UC-7615eef0-3e9c-49eb-8d56-1a2ba45998e1.jpg": "/CV_2022/static/media/UC-7615eef0-3e9c-49eb-8d56-1a2ba45998e1.8925cb9e.jpg",
+    "static/media/UC-b461af42-3812-4852-9903-039f95367afd.jpg": "/CV_2022/static/media/UC-b461af42-3812-4852-9903-039f95367afd.0d639a6b.jpg",
+    "static/media/UC-d9279b63-2b8c-4746-8ee4-85ad568a9e6b.jpg": "/CV_2022/static/media/UC-d9279b63-2b8c-4746-8ee4-85ad568a9e6b.b43a8583.jpg",
+    "static/media/cisco_ccna_R_26S.png": "/CV_2022/static/media/cisco_ccna_R_26S.9a30658c.png",
+    "static/media/logo200px.png": "/CV_2022/static/media/logo200px.9473b096.png",
+    "static/media/mountain.png": "/CV_2022/static/media/mountain.b7b8d45a.png",
+    "static/media/name.png": "/CV_2022/static/media/name.b64c77e4.png",
+    "static/media/portrait.png": "/CV_2022/static/media/portrait.5902a1d8.png",
+    "static/media/server.png": "/CV_2022/static/media/server.3c15598e.png",
+    "static/media/sun.png": "/CV_2022/static/media/sun.c4a7f5e1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a20cefd.js",
+    "static/css/2.90c11924.chunk.css",
+    "static/js/2.a976a9de.chunk.js",
+    "static/css/main.3ceabed5.chunk.css",
+    "static/js/main.e6cdb7a8.chunk.js"
+  ]
+}
